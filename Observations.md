@@ -1,5 +1,5 @@
-# Chocolate Bar Ratings
-Explorative analysis (using Python Pandas) of dark chocolate bars
+# Exploring chocolate bar Ratings
+Explorative analysis (using Python Pandas) of chocolate bars, prepared for class 5007.
 * Data reference https://www.kaggle.com/rtatman/chocolate-bar-ratings
 
 ## Hypotheses worth exploration 
