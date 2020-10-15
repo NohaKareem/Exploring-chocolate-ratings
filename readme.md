@@ -26,8 +26,12 @@ ___
 ### Exploring outlier cocoa percentages
 * **Overview:** When looking into the outlier cocoa percentages of under 70%, we find 328 rated chocolate bars. The ratings' publication dates range from 2006 to 2016, with an approximate standard deviation of 3 years. Ratings range from 1.5 to 4, with a central tendancy (both a mean and median) of approximately 3.2. 
 
+    - Outliers with lighter cocoa content suggest higher ratings overall, given the higher quartile values. This suggestion is affirmed through the non resistant metric, the mean, where darker cocoa rankings yield around 2.96 average rating, and lighter cocoa rankings yield an approximate rating of 3.19.
+
 * **Fig. 3.1: Box plot for outlier cocoa percentages (< 70%)** and **Fig.  3.2: Box plot for outlier cocoa percentages (> 75%)** show less outliers outside the interquartile range, where most cocoa percentages reside within 61-67% and 79-85% respectively. This highlights how, even in the case of outliers, most chocolates rated had a relatively high cocoa content (the overall dataset's minimum cocoa content is 42%, and maximum is 100%).
 
-* **4: Box plot for outlier cocoa percentages (bins = 30)**
+* **4: Outlier cocoa percentage distribution** The distribution highlights how most outlier cocoa percentages still cluster around the overal ratings' central tendencies, where extreme values tend to be more rare (with exceptions, such as 100% cocoa) 
+
+___
 
 * **Correlation between Ratings and Cocoa Percent:** Most Cocoa Percentage values tend to be in the 60-80% range, lower values have always lead to middle ratings (2.5-3)
