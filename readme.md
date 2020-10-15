@@ -23,7 +23,7 @@ ___
 
 * **Fig.2.1: Cocoa percentage distribution (bins = 10)** The rated chocolate bars' cocoa distribution has an overall normal distribution, suggesting a fairly populous data sampling (with 1795 ratings). The central tendency (namely, mean) around 71.7%, which is fairly relative to the median of 70%, indicating a predominantely (70%) dark chocolate sampling.
 
-* **Fig.2.1: Cocoa percentage distribution (bins = 35)** On a closer inspection however, it is clear that the ratings, while having an overall normal distribution, cluster heavily at the central bin (~70-71% cocoa) with occaisonal spikes in higher/lower cocoa percentages. This further emphaises the boxplot, where most chocolates rated are 70% cocoa.
+* **Fig.2.1: Cocoa percentage distribution (bins = 35)** On a closer inspection however, it is clear that the ratings, while having an overall normal distribution, cluster heavily at the central bin (70-71% cocoa) with occaisonal spikes in higher/lower cocoa percentages. This further emphaises the boxplot, where most chocolates rated are 70% cocoa.
 
 ### Exploring outlier cocoa percentages
 * **Overview:** When looking into the outlier cocoa percentages of under 70%, we find 328 rated chocolate bars. The ratings' publication dates range from 2006 to 2016, with an approximate standard deviation of 3 years. Ratings range from 1.5 to 4, with a central tendancy (both a mean and median) of approximately 3.2. 
