@@ -39,9 +39,10 @@ ___
 
 * **Fig. 6: Comparing REF metric and Review Dates** There seems to be far more data entry points than there are unique review publication years. This may reflect multiple reviews per year, or accumulated data entry points. Given the lack of mapping functionality with the REF metric however, not much can be assumed from this metric. 
 ___
-* **Fig. 7: Ratings box plot** The median rating is 3.25, while (from earlier descriptive statistics) the overall mean is around 3.19. This central tendency similarity is mirrored in an overall bell-shaped curve in **Fig. 8** indicating overall ratings distribution. There tends to be some spikes however around the interquartile range. 
+* **Fig. 7: Ratings box plot** The median rating is 3.25, while (from earlier descriptive statistics) the overall mean is around 3.19. This central tendency similarity is mirrored in an overall bell-shaped curve in **Fig. 8** indicating overall ratings distribution. There tends to be some spikes however within the interquartile range. 
 ___
-
+* **Fig. 11: Comparing Bonnat and Soma ratings** This histogram combines Bonnat and Soma chocolate ratings (also explored individualy in **Fig. 9** and **Fig. 10**) to consider brand affinity ratings. Those two chocolate brands have been chosen given that they host the frequencies of chocolates rated in the dataset. Both datasets have a skewing in ratings towards higher ratings, especially with Soma (which does have more chocolates rated). Furthermore, both have a reversed skewing towards cocoa content, as seen in **Fig. 12**.
+___
 * **Correlation between Ratings and Cocoa Percent:** Most Cocoa Percentage values tend to be in the 60-80% range, lower values have always lead to middle ratings (2.5-3)
 ___
 * **Correlation between Review Year and Rating:** Earlier ratings (years 2006-2008) showcase a wider range, where ratings as low as 1, or as high as 5, were present. Most recent ratings on the other hand reflect a far more naunced range. As illustrated in the box plot, and shown in the desriptive statistics that follow, ratings after 2016 ranged from 2.5 to 3.75 with a mere standard deviation of 0.33. 
