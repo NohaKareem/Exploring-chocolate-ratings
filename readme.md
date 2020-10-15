@@ -10,6 +10,7 @@ Explorative analysis (using Python Pandas, in a Jupyter notebook) of chocolate b
 * Data validitiy exploration (test-retest reliability test); checking the proportionality of REF (a value indicative of recentness of data entry) with the ReviewData. This check does not detemrine an ultimate reliability indicator, but could be worth considering if outliers arise. 
 
 ___
+___
 
 ## Observations
 * **Overview** The dataset hosts 3 numerical dimensions (before transforming Cocoa Percent into a fourth quantified dimension). 
