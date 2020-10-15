@@ -3,16 +3,17 @@ Explorative analysis (using Python Pandas, in a Jupyter notebook) of chocolate b
 * Data reference https://www.kaggle.com/rtatman/chocolate-bar-ratings
 
 ## Hypotheses worth exploration 
+___
 * Lower cocoa content yield (or correlate with, rather) higher ratings
+* More recent chocolates are better chocolates (evident through high ratings in more recently published ratings)
 * Brand affinity is independent of bean origin (check for consistent ratings per brand, albeit bean origin variation)
 
 ### Worth further exploration 
 * Data validitiy exploration (test-retest reliability test); checking the proportionality of REF (a value indicative of recentness of data entry) with the ReviewData. This check does not detemrine an ultimate reliability indicator, but could be worth considering if outliers arise. 
 
 ___
-___
-
 ## Observations
+___
 * **Overview** The dataset hosts 3 numerical dimensions (before transforming Cocoa Percent into a fourth quantified dimension). 
     - The REF is a metric of data entry recentness, where larger values indicate a more recent data entry (ranging from 5 to 1952). 
     - Review dates indicate the year of review's publication. Half of the chocolates' reviews were published during 2013 to 2017. The oldest review in this dataset dates back to 2006. The average year is around 2012, suggesting a skewed year distribution towards older reviews~.
@@ -31,8 +32,13 @@ ___
 
 * **Fig. 3.1: Box plot for outlier cocoa percentages (< 70%)** and **Fig.  3.2: Box plot for outlier cocoa percentages (> 75%)** show less outliers outside the interquartile range, where most cocoa percentages reside within 61-67% and 79-85% respectively. This highlights how, even in the case of outliers, most chocolates rated had a relatively high cocoa content (the overall dataset's minimum cocoa content is 42%, and maximum is 100%).
 
-* **4: Outlier cocoa percentage distribution** The distribution highlights how most outlier cocoa percentages still cluster around the overal ratings' central tendencies, where extreme values tend to be more rare (with exceptions, such as 100% cocoa) 
+* **Fig. 4: Outlier cocoa percentage distribution** The distribution highlights how most outlier cocoa percentages still cluster around the overal ratings' central tendencies, where extreme values tend to be more rare (with exceptions, such as 100% cocoa) 
 
 ___
+* **Fig. 5: Box plot for review dates** The interquartile range covers a five-year data sampling with 75% of the ratings being published after 2010; whereas the entire review date range covers 11 years (2006 to 2017). This, as well as the second histogram in **Fig. 6**, showcase a skewing towards more recent years, potentially increasing the data's relevance today.
+
+* **Fig. 6: Comparing REF metric and Review Dates** There seems to be far more data entry points than there are unique review publication years. This may reflect multiple reviews per year, or accumulated data entry points. Given the lack of mapping functionality with the REF metric however, not much can be assumed from this metric. 
 
 * **Correlation between Ratings and Cocoa Percent:** Most Cocoa Percentage values tend to be in the 60-80% range, lower values have always lead to middle ratings (2.5-3)
+___
+* **Correlation between Review Year and Rating:** Earlier ratings (years 2006-2008) showcase a wider range, where ratings as low as 1, or as high as 5, were present. Most recent ratings on the other hand reflect a far more naunced range. As illustrated in the box plot, and shown in the desriptive statistics that follow, ratings after 2016 ranged from 2.5 to 3.75 with a mere standard deviation of 0.33. 
