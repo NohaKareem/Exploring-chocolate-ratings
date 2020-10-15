@@ -45,4 +45,6 @@ ___
 ___
 * **Fig. 13: Correlation between Ratings and Cocoa Percent:** Most Cocoa Percentage values tend to be in the 60-80% range, lower values seem to correlate with middle ratings (2.5-3). 100% cocoa content seems to yield a high range of ratings (it is worth noting that 100% cocoa is an outlier case, and thus variation here does not weigh as much given the narrower data sampling).
 ___
-* **Fig. 14: Correlation between Review Year and Rating:** Earlier ratings (years 2006-2008) showcase a wider range, where ratings as low as 1, or as high as 5, were present. Most recent ratings on the other hand reflect a far more naunced range. As illustrated in the box plot, and shown in the desriptive statistics that follow, ratings after 2016 ranged from 2.5 to 3.75 with a mere standard deviation of 0.33. Overall, the scatter plot does not render a discernable pattern; this could be suggestive of a limited data sampling for the review publication years.
+* **Fig. 14: Correlation between Review Year and Rating:** Earlier ratings (years 2006-2008) showcase a wider range, where ratings as low as 1, or as high as 5, were present. Most recent ratings on the other hand reflect a far more naunced range. As illustrated in the box plot, and shown in the desriptive statistics that follow, ratings after 2016 ranged from 2.5 to 3.75 with a mere standard deviation of 0.33 (visualized in **Fig. 15**). Overall, the scatter plot does not render a discernable pattern; this could be suggestive of a limited data sampling for the review publication years.
+___
+
