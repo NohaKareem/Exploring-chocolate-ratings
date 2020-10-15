@@ -16,7 +16,7 @@ ___
 ___
 * **Overview** The dataset hosts 3 numerical dimensions (before transforming Cocoa Percent into a fourth quantified dimension). 
     - The REF is a metric of data entry recentness, where larger values indicate a more recent data entry (ranging from 5 to 1952). 
-    - Review dates indicate the year of review's publication. Half of the chocolates' reviews were published during 2013 to 2017. The oldest review in this dataset dates back to 2006. The average year is around 2012, suggesting a skewed year distribution towards older reviews~.
+    - Review dates indicate the year of review's publication. Half of the chocolates' reviews were published during 2013 to 2017. The oldest review in this dataset dates back to 2006. The average year is around 2012.
     - The Rating column ranges from 1 to 5 ([more details on rating scale found here](https://www.kaggle.com/rtatman/chocolate-bar-ratings)). 25% of ratings are under approximately 2.9/5, while half the 50th percentile (median) is just over 3/5 (3.25). Very few chocolates seem to converge towards the 4-5 rating, given that the 75th percentile is 3.5/5.
 
 * **Fig.1: Box plot for cocoa percentage among rated chocolate bars** The Cocoa percent interquartile range (of rated chocolates) is 70-75%, with both the median and 25th percentile being 70%, suggesting this as a standard for fine chocolates (at least those rated). There are a number of outliers, around 448 bars (25% of 1795 total reviews = 448.75), that have a lower Cocoa percent however.
@@ -38,6 +38,9 @@ ___
 * **Fig. 5: Box plot for review dates** The interquartile range covers a five-year data sampling with 75% of the ratings being published after 2010; whereas the entire review date range covers 11 years (2006 to 2017). This, as well as the second histogram in **Fig. 6**, showcase a skewing towards more recent years, potentially increasing the data's relevance today.
 
 * **Fig. 6: Comparing REF metric and Review Dates** There seems to be far more data entry points than there are unique review publication years. This may reflect multiple reviews per year, or accumulated data entry points. Given the lack of mapping functionality with the REF metric however, not much can be assumed from this metric. 
+___
+* **Fig. 7: Ratings box plot** The median rating is 3.25, while (from earlier descriptive statistics) the overall mean is around 3.19. This central tendency similarity is mirrored in an overall bell-shaped curve in **Fig. 8** indicating overall ratings distribution. There tends to be some spikes however around the interquartile range. 
+___
 
 * **Correlation between Ratings and Cocoa Percent:** Most Cocoa Percentage values tend to be in the 60-80% range, lower values have always lead to middle ratings (2.5-3)
 ___
